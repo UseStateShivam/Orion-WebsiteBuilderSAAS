@@ -7,7 +7,7 @@ Instant Website Creation: Build and host websites quickly with a user-friendly d
 Drag and Drop: Easily arrange and customize website elements with our intuitive drag-and-drop functionality.
 Undo/Redo Functionality: Keep track of your changes with full undo and redo capabilities, all built from scratch.
 Technologies Used:-
-NextJs
+NextJs<br/>
 ShadCn
 UploadThing
 Stripe
