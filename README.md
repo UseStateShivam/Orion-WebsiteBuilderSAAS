@@ -6,8 +6,8 @@ Client Management: Manage clients using subaccounts for efficient organization a
 Instant Website Creation: Build and host websites quickly with a user-friendly drag-and-drop interface.
 Drag and Drop: Easily arrange and customize website elements with our intuitive drag-and-drop functionality.
 Undo/Redo Functionality: Keep track of your changes with full undo and redo capabilities, all built from scratch.
-Technologies Used:-
+Technologies Used:-<br/>
 NextJs<br/>
-ShadCn
-UploadThing
-Stripe
+ShadCn<br/>
+UploadThing<br/>
+Stripe<br/>
