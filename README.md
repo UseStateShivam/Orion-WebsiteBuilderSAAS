@@ -13,4 +13,3 @@ ShadCn<br/>
 UploadThing<br/>
 Stripe<br/>
 MySQLWorkBench Local DB<br/>
-Stripe<br/>
