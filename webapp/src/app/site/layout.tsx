@@ -1,3 +1,5 @@
+import { ClerkProvider } from '@clerk/nextjs'
+import { dark } from '@clerk/themes'
 import Navigation from '@/components/Site/Navigation'
 import React from 'react'
 import localFont from 'next/font/local'
@@ -8,12 +10,18 @@ const grotesk = localFont({
 
 function layout({children}: {children: React.ReactNode}) {
   return (
-    <main className={grotesk.className}>
-      <section className='h-full'>
-        <Navigation/>
-        {children}
-      </section>
-    </main>
+    <ClerkProvider
+        appearance={{
+          baseTheme: dark
+        }}
+    >
+      <main className={grotesk.className}>
+        <section className='h-full'>
+          <Navigation/>
+          {children}
+        </section>
+      </main>
+    </ClerkProvider>
   )
 }
 
