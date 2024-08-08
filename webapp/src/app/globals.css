@@ -5,6 +5,7 @@
 html,
 body {
   height: 100vh;
+  background: #000;
 }
 
 *,
@@ -23,7 +24,7 @@ B (255 */
     --background: 216 100% 98.04%;
     --foreground: 213.6 100% 4.9%;
 
-    --primary: 214.12 100% 50%;
+    --primary: 0 100% 50%;
     --primary-foreground: 0 0% 100%;
 
     --card: 216 100% 98.04%;
@@ -118,4 +119,18 @@ B (255 */
     opacity: 1;
     transform: scale(1);
   }
+}
+
+/* Global styles or component-specific styles */
+::-webkit-scrollbar {
+  width: 14px; /* Adjust the width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #000; /* Set the track (background) of the scrollbar to transparent */
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 47, 0, 0.82); /* Adjust the thumb (the draggable part of the scrollbar) */
+  border-radius: 10px; /* Optional: round the corners of the thumb */
 }
